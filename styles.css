@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 #navbar ul {
   display: flex;
@@ -13,8 +17,13 @@
   color: black;
   font-size: 20px;
 }
+#navbar ul li span {
+  padding: 2px;
+}
 #navbar ul li span:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  outline: none;
+  border-radius: 15px;
 }
 
 #navbar ul li a:hover {
@@ -26,13 +35,14 @@
   list-style-type: none;
 }
 #content {
-  padding-top: 70px;
+  margin-top: 100px;
   text-align: center;
 }
 #text {
   padding: 9px 12px 9px 12px;
   margin-top: 10px;
-  width: 70vw;
+  border: 0.5px solid;
+  width: 500px;
   outline: none;
   border-radius: 25px;
   font-size: 16px;
@@ -40,4 +50,53 @@
 
 #text:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn {
+  padding: 5px 10px;
+  outline: none;
+}
+#container2 ul {
+  display: flex;
+  justify-content: center;
+}
+#container2 ul li {
+  list-style-type: none;
+  padding: 3px 5px;
+}
+
+.footer1 {
+  float: left;
+  position: absolute;
+  bottom: 0px;
+  background-color: lightgray;
+  width: 100vw;
+}
+.footer2 {
+  float: right;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
+.footer1 ul {
+  display: flex;
+}
+.footer2 ul {
+  display: flex;
+}
+.footer1 ul li {
+  list-style-type: none;
+  padding: 5px 8px;
+  font-size: 17px;
+}
+.footer1 ul li a {
+  text-decoration: none;
+}
+.footer2 ul li {
+  list-style-type: none;
+  padding: 5px 8px;
+  font-size: 17px;
+}
+.footer2 ul li a {
+  text-decoration: none;
 }
