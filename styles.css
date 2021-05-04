@@ -25,3 +25,19 @@
   padding: 15px;
   list-style-type: none;
 }
+#content {
+  padding-top: 70px;
+  text-align: center;
+}
+#text {
+  padding: 9px 12px 9px 12px;
+  margin-top: 10px;
+  width: 70vw;
+  outline: none;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+#text:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
